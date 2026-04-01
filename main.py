@@ -40,7 +40,7 @@ while True:
         print("Unable to capture video")
         break
 
-    # Convert to RGB for MediaPipe
+    # Convert to RGB for MediaPip
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Wrap into MediaPipe Image
